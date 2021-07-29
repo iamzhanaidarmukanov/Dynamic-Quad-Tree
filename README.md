@@ -1,4 +1,4 @@
-# Dynamic-Quad-Tree
+# Dynamic-Quad-Tree 
 
 Quad tree data structure can represent a black-white image. We are given a picture containing only black and white pixels. By operating on a single pixel, we can flip a pixel from ‘0’ to ‘1’ or from ‘1’ to ‘0’. And after each operation, it is required to output the total number of nodes in the corresponding quad tree of the current picture.
 
