@@ -83,6 +83,18 @@ void update(node *answer, int x, int y, int l, int r, int u, int d) {
     }
 }
 
+void clean(node* ptr) {
+    if (ptr == NULL)
+        return;
+
+    clean(ptr->ul);
+    clean(ptr->ur);
+    clean(ptr->dl);
+    clean(ptr->dr);
+    
+    delete ptr;
+}
+
 
 int main() {
 
